@@ -12,6 +12,7 @@ body {
   z-index: 1;
   left: 0;
   top: 0;
+  margin-top: 150px;
   width: 100%;
   height: 100%;
   /* background-color: rgba(0, 0, 0, 0.5); */
@@ -54,4 +55,52 @@ h4 {
 }
 h5 {
   color: white;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .alert-content {
+    width: 90%; /* Make the alert box wider on smaller screens */
+    max-width: 90%; /* Reduce the max width */
+    padding: 15px; /* Reduce padding */
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+  
+  .close-btn {
+    font-size: 28px; /* Make the close button smaller */
+  }
+
+  h1 {
+    font-size: 24px; /* Reduce font size for headings */
+    margin-top: 50px; /* Adjust margin for mobile screens */
+  }
+
+  h4, h5 {
+    font-size: 16px; /* Adjust subheading font sizes */
+  }
+}
+
+/* Further adjustments for very small screens */
+@media (max-width: 480px) {
+  .alert-content {
+    width: 80%; /* Nearly full width for small screens */
+    max-width: 80%;
+    padding: 10px; /* Reduce padding */
+    font-size: 14px; /* Further adjust font size */
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+  
+  .close-btn {
+    font-size: 24px; /* Reduce the size of the close button */
+  }
+
+  h1 {
+    font-size: 20px; /* Smaller heading */
+    
+  }
+
+  h4, h5 {
+    font-size: 14px;
+  }
 }
