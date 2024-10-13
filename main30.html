@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alert Messages</title>
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Alert Messages</h1>
+  <h5>Note: input value is given ( => cloUd naTive computinG <= ) after click the button, alphabets will change in customize alert message</h5>
+  <!-- Update the button to correctly call the function -->
+  <button class="close-btn" onclick="displayCalculation()">Display Alert</button>
+
+  <!-- Alert structure -->
+  <div class="alert" id="customAlert">
+    <div class="alert-content">
+      <span class="close-btn" onclick="closeAlert()">&times;</span>
+      <p id="alertMessage">This is an alert message!</p>
+      <p id="alertMessage">Letter's upper/lower case changes propely after clicking the button  => cloUd naTive computinG</p>
+    </div>
+  </div>
+
+  <script src="main30.js"></script>
+  <h4>Author: Azmat Ali</h4>
+</body>
+</html>

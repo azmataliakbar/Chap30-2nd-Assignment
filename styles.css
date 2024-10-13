@@ -1,0 +1,57 @@
+body {
+  font-family: cursive;
+  background-color: black;
+  text-align: center;
+}
+
+.alert {
+  display: flex; /* Use Flexbox */
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.alert-content {
+  background-color: bisque; /* Background color */
+  color: black;
+  padding: 20px;
+  border: 3px solid red;
+  width: 80%;
+  max-width: 500px; /* Limit the width */
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+
+.close-btn {
+  color: rgb(103, 103, 248); /* Gray close button */
+  float: none;
+  font-size: 35px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: rgb(247, 92, 115); /* Change color on hover */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1 {
+  color: rgb(107, 245, 107);
+  margin-top: 150px;
+}
+h4 {
+  color: yellow;
+}
+h5 {
+  color: white;
+}
